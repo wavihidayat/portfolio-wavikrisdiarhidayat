@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html>
+<style>
+  * {
+    margin: 0;
+  }
+  .portfolio {
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.portfolio .div {
+  background-color: #0e0e0e;
+  overflow: hidden;
+  width: 1440px;
+  height: 11561px;
+  position: relative;
+}
+
+.portfolio .overlap {
+  position: absolute;
+  width: 1523px;
+  height: 1606px;
+  top: 5160px;
+  left: 0;
+}
+
+.portfolio .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 1606px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.portfolio .text-wrapper {
+  position: absolute;
+  top: 35px;
+  left: 126px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff0000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .frame {
+  position: absolute;
+  width: 1279px;
+  height: 1348px;
+  top: 163px;
+  left: 80px;
+}
+
+.portfolio .group {
+  position: relative;
+  height: 1348px;
+}
+
+.portfolio .illust1 {
+  position: absolute;
+  width: 486px;
+  height: 679px;
+  top: 0;
+  left: -10px;
+  object-fit: cover;
+}
+
+.portfolio .illust3 {
+  position: absolute;
+  width: 773px;
+  height: 444px;
+  top: 0;
+  left: 516px;
+}
+
+.portfolio .illust4 {
+  position: absolute;
+  width: 367px;
+  height: 367px;
+  top: 454px;
+  left: 516px;
+}
+
+.portfolio .illust2 {
+  position: absolute;
+  width: 486px;
+  height: 679px;
+  top: 689px;
+  left: -10px;
+}
+
+.portfolio .overlap-group-wrapper {
+  position: absolute;
+  width: 347px;
+  height: 347px;
+  top: 454px;
+  left: 932px;
+}
+
+.portfolio .overlap-group {
+  position: relative;
+  width: 367px;
+  height: 367px;
+  left: -10px;
+  background-image: url(illust5.png);
+  background-size: 100% 100%;
+}
+
+.portfolio .qrcode {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 271px;
+  left: 281px;
+}
+
+.portfolio .ellipse {
+  width: 122px;
+  height: 122px;
+  top: 1394px;
+  left: 749px;
+  border-radius: 61px;
+  position: absolute;
+  border: 5px solid;
+  border-color: #ff0000;
+}
+
+.portfolio .ellipse-2 {
+  width: 148px;
+  height: 148px;
+  top: 1177px;
+  left: 1073px;
+  border-radius: 74px;
+  position: absolute;
+  border: 5px solid;
+  border-color: #ff0000;
+}
+
+.portfolio .ellipse-3 {
+  width: 74px;
+  height: 74px;
+  top: 1089px;
+  left: 829px;
+  border-radius: 37px;
+  position: absolute;
+  border: 5px solid;
+  border-color: #ff0000;
+}
+
+.portfolio .ellipse-4 {
+  width: 188px;
+  height: 188px;
+  top: 1386px;
+  left: 1335px;
+  border-radius: 94px;
+  position: absolute;
+  border: 5px solid;
+  border-color: #ff0000;
+}
+
+.portfolio .overlap-2 {
+  position: absolute;
+  width: 1547px;
+  height: 1797px;
+  top: 0;
+  left: -107px;
+}
+
+.portfolio .group-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 320px 80px;
+  position: absolute;
+  top: 0;
+  left: 107px;
+  background-color: #0e0e0e;
+}
+
+.portfolio .group-2 {
+  position: relative;
+  width: 589px;
+  height: 169px;
+  margin-right: -4px;
+}
+
+.portfolio .text-wrapper-2 {
+  position: absolute;
+  top: 49px;
+  left: 0;
+  background: linear-gradient(180deg, rgb(149, 1, 1) 0%, rgb(255, 0, 0) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: transparent;
+  font-size: 120px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.portfolio .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .ellipse-5 {
+  position: absolute;
+  width: 188px;
+  height: 188px;
+  top: 693px;
+  left: 0;
+  border-radius: 94px;
+  border: 5px solid;
+  border-color: #ff0000;
+}
+
+.portfolio .vector {
+  top: 201px;
+  left: 834px;
+  position: absolute;
+  width: 713px;
+  height: 664px;
+}
+
+.portfolio .rectangle-5 {
+  position: absolute;
+  width: 1440px;
+  height: 938px;
+  top: 859px;
+  left: 107px;
+  background-color: #ffffff;
+}
+
+.portfolio .div-wrapper {
+  position: absolute;
+  width: 1279px;
+  height: 669px;
+  top: 1032px;
+  left: 187px;
+  border-radius: 50px;
+  box-shadow: 0px 15px 15px #00000040;
+  background: linear-gradient(180deg, rgb(102, 0.5, 0.5) 0%, rgb(204, 1, 1) 100%);
+}
+
+.portfolio .group-3 {
+  position: relative;
+  width: 1146px;
+  height: 558px;
+  top: 55px;
+  left: 66px;
+}
+
+.portfolio .group-4 {
+  position: absolute;
+  width: 713px;
+  height: 428px;
+  top: 80px;
+  left: 435px;
+}
+
+.portfolio .group-5 {
+  position: absolute;
+  width: 711px;
+  height: 344px;
+  top: 84px;
+  left: 0;
+}
+
+.portfolio .group-6 {
+  position: relative;
+  width: 715px;
+  height: 344px;
+}
+
+.portfolio .p {
+  position: absolute;
+  width: 711px;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .i-ve-been-actively {
+  position: absolute;
+  width: 711px;
+  top: 164px;
+  left: 0;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .group-7 {
+  position: absolute;
+  width: 378px;
+  height: 558px;
+  top: 0;
+  left: 0;
+  background-image: url(potocv.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.portfolio .group-8 {
+  position: relative;
+  width: 267px;
+  height: 60px;
+  top: 468px;
+  left: 57px;
+}
+
+.portfolio .overlap-group-2 {
+  position: relative;
+  width: 265px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.portfolio .text-wrapper-5 {
+  position: absolute;
+  width: 179px;
+  top: 12px;
+  left: 43px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal; 
+  color: #0e0e0e;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .text-wrapper-6 {
+  position: absolute;
+  top: 914px;
+  left: 233px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff0000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .group-9 {
+  position: absolute;
+  width: 118px;
+  height: 221px;
+  top: 907px;
+  left: 1352px;
+}
+
+.portfolio .group-10 {
+  position: absolute;
+  width: 1281px;
+  height: 1349px;
+  top: 1852px;
+  left: 80px;
+}
+
+.portfolio .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 46px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff0000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .hanifweb1 {
+  position: absolute;
+  width: 611px;
+  height: 1222px;
+  top: 127px;
+  left: 0;
+  object-fit: cover;
+}
+
+.portfolio .hanifweb2 {
+  position: absolute;
+  width: 605px;
+  height: 403px;
+  top: 127px;
+  left: 674px;
+  object-fit: cover;
+}
+
+.portfolio .hanifweb3 {
+  position: absolute;
+  width: 605px;
+  height: 403px;
+  top: 555px;
+  left: 674px;
+  object-fit: cover;
+}
+
+.portfolio .group-11 {
+  position: absolute;
+  width: 605px;
+  height: 365px;
+  top: 984px;
+  left: 674px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.portfolio .group-12 {
+  position: relative;
+  width: 520px;
+  height: 264px;
+  top: 51px;
+  left: 45px;
+}
+
+.portfolio .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #0e0e0e;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .text-wrapper-9 {
+  position: absolute;
+  width: 516px;
+  top: 84px;
+  left: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #0e0e0e;
+  font-size: 24px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .frame-2 {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 27px;
+  position: absolute;
+  top: 3403px;
+  left: 79px;
+}
+
+.portfolio .img-wrapper {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.portfolio .kucing {
+  position: absolute;
+  width: 250px;
+  height: 201px;
+  top: 50px;
+  left: 25px;
+}
+
+.portfolio .ayam {
+  position: absolute;
+  width: 172px;
+  height: 240px;
+  top: 30px;
+  left: 64px;
+}
+
+.portfolio .klinci {
+  position: absolute;
+  width: 174px;
+  height: 239px;
+  top: 30px;
+  left: 63px;
+}
+
+.portfolio .smut {
+  position: absolute;
+  width: 230px;
+  height: 212px;
+  top: 44px;
+  left: 35px;
+}
+
+.portfolio .frame-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 27px;
+  position: absolute;
+  top: 3733px;
+  left: 79px;
+}
+
+.portfolio .elang {
+  position: absolute;
+  width: 250px;
+  height: 240px;
+  top: 30px;
+  left: 25px;
+}
+
+.portfolio .kumbang {
+  position: absolute;
+  width: 205px;
+  height: 239px;
+  top: 31px;
+  left: 47px;
+}
+
+.portfolio .ular {
+  position: absolute;
+  width: 252px;
+  height: 185px;
+  top: 57px;
+  left: 24px;
+}
+
+.portfolio .rubah {
+  position: absolute;
+  width: 254px;
+  height: 206px;
+  top: 47px;
+  left: 23px;
+}
+
+.portfolio .text-wrapper-10 {
+  position: absolute;
+  top: 3293px;
+  left: 658px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .modules-worksheets {
+  position: absolute;
+  top: 4447px;
+  left: 508px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .frame-4 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 27px;
+  position: absolute;
+  top: 4063px;
+  left: 79px;
+}
+
+.portfolio .jrpah {
+  position: absolute;
+  width: 190px;
+  height: 275px;
+  top: 13px;
+  left: 55px;
+}
+
+.portfolio .bruang {
+  position: absolute;
+  width: 180px;
+  height: 249px;
+  top: 26px;
+  left: 60px;
+}
+
+.portfolio .sapi {
+  position: absolute;
+  width: 225px;
+  height: 218px;
+  top: 41px;
+  left: 37px;
+}
+
+.portfolio .buaya {
+  position: absolute;
+  width: 279px;
+  height: 138px;
+  top: 81px;
+  left: 10px;
+}
+
+.portfolio .frame-5 {
+  position: absolute;
+  width: 1394px;
+  height: 408px;
+  top: 4557px;
+  left: 40px;
+}
+
+.portfolio .overlap-wrapper {
+  height: 408px;
+}
+
+.portfolio .overlap-3 {
+  position: relative;
+  width: 1394px;
+  height: 408px;
+}
+
+.portfolio .group-13 {
+  position: absolute;
+  width: 481px;
+  height: 400px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .overlap-group-3 {
+  position: relative;
+  width: 489px;
+  height: 400px;
+  left: -4px;
+}
+
+.portfolio .group-14 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 44px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.portfolio .book1 {
+  position: absolute;
+  width: 489px;
+  height: 316px;
+  top: 46px;
+  left: 0;
+  object-fit: cover;
+}
+
+.portfolio .book2-wrapper {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 0;
+  left: 480px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.portfolio .book2 {
+  position: absolute;
+  width: 338px;
+  height: 250px;
+  top: 79px;
+  left: 31px;
+}
+
+.portfolio .group-15 {
+  position: absolute;
+  width: 589px;
+  height: 408px;
+  top: 0;
+  left: 805px;
+}
+
+.portfolio .overlap-4 {
+  position: relative;
+  height: 408px;
+}
+
+.portfolio .group-16 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 4px;
+  left: 114px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.portfolio .book3 {
+  position: absolute;
+  width: 589px;
+  height: 408px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .text-wrapper-11 {
+  position: absolute;
+  top: 8148px;
+  left: 126px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff0000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .overlap-5 {
+  position: absolute;
+  width: 1440px;
+  height: 1328px;
+  top: 6766px;
+  left: 0;
+  background-color: #950101;
+}
+
+.portfolio .frame-6 {
+  position: absolute;
+  width: 1268px;
+  height: 1062px;
+  top: 115px;
+  left: 91px;
+}
+
+.portfolio .group-17 {
+  position: relative;
+  height: 1062px;
+}
+
+.portfolio .cover1 {
+  position: absolute;
+  width: 635px;
+  height: 864px;
+  top: 199px;
+  left: -10px;
+  object-fit: cover;
+}
+
+.portfolio .cover2 {
+  position: absolute;
+  width: 613px;
+  height: 356px;
+  top: 0;
+  left: 665px;
+}
+
+.portfolio .rma {
+  position: absolute;
+  width: 613px;
+  height: 353px;
+  top: 366px;
+  left: 665px;
+  object-fit: cover;
+}
+
+.portfolio .barca {
+  position: absolute;
+  width: 613px;
+  height: 353px;
+  top: 729px;
+  left: 665px;
+  object-fit: cover;
+}
+
+.portfolio .design-cover {
+  position: absolute;
+  top: 114px;
+  left: 126px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .overlap-6 {
+  position: absolute;
+  width: 1268px;
+  height: 1139px;
+  top: 8276px;
+  left: 91px;
+}
+
+.portfolio .luxurygarbage {
+  position: absolute;
+  width: 417px;
+  height: 431px;
+  top: 0;
+  left: 421px;
+  object-fit: cover;
+}
+
+.portfolio .frame-7 {
+  position: absolute;
+  width: 1268px;
+  height: 830px;
+  top: 309px;
+  left: 0;
+}
+
+.portfolio .group-18 {
+  height: 830px;
+}
+
+.portfolio .overlap-7 {
+  position: relative;
+  width: 1268px;
+  height: 830px;
+}
+
+.portfolio .rectangle-7 {
+  position: absolute;
+  width: 1268px;
+  height: 653px;
+  top: 177px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.portfolio .lg1 {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  top: 215px;
+  left: 70px;
+}
+
+.portfolio .lg2 {
+  position: absolute;
+  width: 280px;
+  height: 273px;
+  top: 222px;
+  left: 489px;
+}
+
+.portfolio .group-19 {
+  position: absolute;
+  width: 325px;
+  height: 658px;
+  top: 0;
+  left: 885px;
+}
+
+.portfolio .overlap-group-4 {
+  position: relative;
+  height: 658px;
+}
+
+.portfolio .lg3 {
+  position: absolute;
+  width: 217px;
+  height: 351px;
+  top: 86px;
+  left: 50px;
+}
+
+.portfolio .lg4 {
+  position: absolute;
+  width: 217px;
+  height: 351px;
+  top: 307px;
+  left: 79px;
+}
+
+.portfolio .lg5 {
+  position: absolute;
+  width: 325px;
+  height: 526px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .lg6 {
+  position: absolute;
+  width: 570px;
+  height: 380px;
+  top: 441px;
+  left: 136px;
+}
+
+.portfolio .layerlg7 {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  top: 501px;
+  left: 724px;
+  overflow: hidden;
+  transform: rotate(60deg);
+}
+
+.portfolio .lg7 {
+  position: absolute;
+  width: 181px;
+  height: 276px;
+  top: -4px;
+  left: 42px;
+  transform: rotate(-60deg);
+}
+
+.portfolio .frame-8 {
+  position: absolute;
+  width: 1268px;
+  height: 890px;
+  top: 9470px;
+  left: 91px;
+}
+
+.portfolio .group-20 {
+  position: relative;
+  height: 890px;
+}
+
+.portfolio .lg8 {
+  position: absolute;
+  width: 595px;
+  height: 398px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .lg9 {
+  position: absolute;
+  width: 607px;
+  height: 397px;
+  top: 0;
+  left: 661px;
+}
+
+.portfolio .lg10 {
+  position: absolute;
+  width: 595px;
+  height: 446px;
+  top: 443px;
+  left: 0;
+}
+
+.portfolio .lg11 {
+  position: absolute;
+  width: 607px;
+  height: 445px;
+  top: 443px;
+  left: 661px;
+}
+
+.portfolio .overlap-8 {
+  position: absolute;
+  width: 1440px;
+  height: 1052px;
+  top: 10509px;
+  left: 0;
+}
+
+.portfolio .rectangle-19 {
+  position: absolute;
+  width: 1440px;
+  height: 787px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.portfolio .text-wrapper-12 {
+  position: absolute;
+  top: 56px;
+  left: 126px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff0000;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .frame-9 {
+  position: absolute;
+  width: 391px;
+  height: 285px;
+  top: 184px;
+  left: 91px;
+}
+
+.portfolio .group-21 {
+  position: absolute;
+  width: 393px;
+  height: 65px;
+  top: 40px;
+  left: 0;
+}
+
+.portfolio .gmail {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .text-wrapper-13 {
+  position: absolute;
+  top: 15px;
+  left: 119px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #0e0e0e;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .group-23 {
+  position: absolute;
+  width: 333px;
+  height: 65px;
+  top: 150px;
+  left: 0;
+}
+
+.portfolio .whatsapp {
+  position: relative;
+  width: 65px;
+  height: 65px;
+}
+
+.portfolio .group-25 {
+  position: absolute;
+  width: 246px;
+  height: 65px;
+  top: 260px;
+  left: 0;
+}
+
+.portfolio .vector-2 {
+  top: 123px;
+  left: 727px;
+  position: absolute;
+  width: 713px;
+  height: 664px;
+}
+
+.portfolio .rectangle-20 {
+  position: absolute;
+  width: 1440px;
+  height: 268px;
+  top: 784px;
+  left: 0;
+  background-color: #0e0e0e;
+}
+
+.portfolio .logo {
+  position: absolute;
+  width: 109px;
+  height: 40px;
+  top: 842px;
+  left: 92px;
+}
+
+.portfolio .text-wrapper-15 {
+  position: absolute;
+  top: 896px;
+  left: 92px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.portfolio .frame-10 {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 950px;
+  padding: 30px 80px;
+  position: fixed;
+  top: 0;
+  left: -20px;
+  background-color: #0e0e0e80;
+}
+
+.portfolio .logo-2 {
+  position: relative;
+  width: 109.44px;
+  height: 40px;
+}
+
+#logogw #portfolio-gw2 {
+  display: none;
+}
+
+#logogw:hover #portfolio-gw1 {
+  display: none;
+}
+
+#logogw:hover #portfolio-gw2 {
+  display: block;
+}
+
+.portfolio .navbar {
+  position: relative;
+  width: 324px;
+  height: 20px;
+  left: -120px;
+}
+
+.portfolio .ABOUT {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.portfolio .text-wrapper-16 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.navlink:hover {
+  color: #ff0000;
+}
+
+.portfolio .WORK {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 125px;
+}
+
+.portfolio .CONTACT {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  left: 245px;
+}
+
+a {
+  text-decoration: none;
+}
+</style>  
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>WKH Portfolio</title>
+    <link rel="icon" href="Logo.png">
+  </head>
+
+  <body id="home">
+    <div class="portfolio">
+      <div class="div">
+        <div class="overlap">
+          <div class="rectangle"></div>
+          <div class="text-wrapper">Illustration</div>
+          <div class="frame">
+            <div class="group">
+              <img class="illust1" src="illust1.png" />
+              <img class="illust3" src="illust3.png" />
+              <img class="illust4" src="illust4.png" />
+              <img class="illust2" src="illust2.png" />
+              <div class="overlap-group-wrapper">
+                <div class="overlap-group"><img class="qrcode" src="qrcode.png" /></div>
+              </div>
+            </div>
+          </div>
+          <div class="ellipse"></div>
+          <div class="ellipse-2"></div>
+          <div class="ellipse-3"></div>
+          <div class="ellipse-4"></div>
+        </div>
+        <div class="overlap-2">
+          <div class="group-wrapper">
+            <div class="group-2">
+              <div class="text-wrapper-2">PORTFOLIO</div>
+              <div class="text-wrapper-3">Wavi Krisdiar Hidayat</div>
+            </div>
+          </div>
+          <div class="ellipse-5"></div>
+          <img class="vector" src="VectorW.png" />
+          <div class="rectangle-5"></div>
+          <div class="div-wrapper" >
+            <div class="group-3">
+              <div class="group-4">
+                <div class="group-5">
+                  <div class="group-6">
+                    <p class="p poppins-medium">
+                      As a Visual Communication Design student from UPN “Veteran” Jawa Timur who has an interest in UI
+                      UX, branding, graphic design, illustration, and photography. I’m also want to try and learn new
+                      things.
+                    </p>
+                    <p class="i-ve-been-actively p poppins-medium">
+                      I’ve been actively involved in several activities in my department and participated in various
+                      competitions, such as Indonesia Footwear Creative (Photography &amp; Videography). I’m also trying
+                      to be disciplined and consistent as a content creator on my YouTube :)
+                    </p>
+                  </div>
+                </div>
+                <div class="text-wrapper-4">Wavi Krisdiar Hidayat</div>
+              </div>
+              <div class="group-7">
+                <div class="group-8">
+                  <div class="overlap-group-2"><div class="text-wrapper-5">UI UX Designer</div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-wrapper-6" id="about-us">About me</div>
+          <img class="group-9" src="Vektorseru.png" />
+        </div>
+        <div class="group-10">
+          <div class="text-wrapper-7" id="work-me">Hexa Project</div>
+          <img class="hanifweb1" src="hanifweb1.png" />
+          <img class="hanifweb2" src="hanifweb2.png" />
+          <img class="hanifweb3" src="hanifweb3.png" />
+          <div class="group-11">
+            <div class="group-12">
+              <div class="text-wrapper-8">Web Design</div>
+              <p class="text-wrapper-9">
+                During the 5th semester, I interned at Hexa Integra and this is the final project I made during my
+                internship at Hexa Integra along with the assets in the project.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="frame-2">
+          <div class="img-wrapper"><img class="kucing" src="kucing.png" /></div>
+          <div class="img-wrapper"><img class="ayam" src="ayam.png" /></div>
+          <div class="img-wrapper"><img class="klinci" src="klinci.png" /></div>
+          <div class="img-wrapper"><img class="smut" src="smut.png" /></div>
+        </div>
+        <div class="frame-3">
+          <div class="img-wrapper"><img class="elang" src="elang.png" /></div>
+          <div class="img-wrapper"><img class="kumbang" src="kumbang.png" /></div>
+          <div class="img-wrapper"><img class="ular" src="ular.png" /></div>
+          <div class="img-wrapper"><img class="rubah" src="rubah.png" /></div>
+        </div>
+        <div class="text-wrapper-10">Assets</div>
+        <div class="modules-worksheets">Modules &amp; Worksheets</div>
+        <div class="frame-4">
+          <div class="img-wrapper"><img class="jrpah" src="jrpah.png" /></div>
+          <div class="img-wrapper"><img class="bruang" src="bruang.png" /></div>
+          <div class="img-wrapper"><img class="sapi" src="sapi.png" /></div>
+          <div class="img-wrapper"><img class="buaya" src="buaya.png" /></div>
+        </div>
+        <div class="frame-5">
+          <div class="overlap-wrapper">
+            <div class="overlap-3">
+              <div class="group-13">
+                <div class="overlap-group-3">
+                  <div class="group-14"></div>
+                  <img class="book1" src="book1.png" />
+                </div>
+              </div>
+              <div class="book2-wrapper">
+                <img class="book2" src="book2.png" />
+              </div>
+              <div class="group-15">
+                <div class="overlap-4">
+                  <div class="group-16"></div>
+                  <img class="book3" src="book3.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-wrapper-11">Branding</div>
+        <div class="overlap-5">
+          <div class="frame-6">
+            <div class="group-17">
+              <img class="cover1" src="cover1.png" />
+              <img class="cover2" src="cover2.png" />
+              <img class="rma" src="cover3.png" />
+              <img class="barca" src="cover4.png" />
+            </div>
+          </div>
+          <div class="design-cover">Design Cover<br />&amp; Photography</div>
+        </div>
+        <div class="overlap-6">
+          <img class="luxurygarbage" src="brandinglogo.png" />
+          <div class="frame-7">
+            <div class="group-18">
+              <div class="overlap-7">
+                <div class="rectangle-7"></div>
+                <img class="lg1" src="lg1.png" />
+                <img class="lg2" src="lg2.png" />
+                <div class="group-19">
+                  <div class="overlap-group-4">
+                    <img class="lg3" src="lg3.png" />
+                    <img class="lg4" src="lg4.png" />
+                    <img class="lg5" src="lg5.png" />
+                  </div>
+                </div>
+                <img class="lg6" src="lg6.png" />
+                <div class="layerlg7"><img class="lg7" src="lg7.png" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-8">
+          <div class="group-20">
+            <img class="lg8" src="lg8.png" />
+            <img class="lg9" src="lg9.png" />
+            <img class="lg10" src="lg10.png" />
+            <img class="lg11" src="lg11.png" />
+          </div>
+        </div>
+        <div class="overlap-8">
+          <div class="rectangle-19"></div>
+          <div class="text-wrapper-12" id="contact-me">Contact me</div>
+          <div class="frame-9">
+            <div class="group-21">
+              <img class="gmail" src="gmail.png" />
+              <div class="text-wrapper-13">wavikh27@gmail.com</div>
+            </div>
+            <div class="group-23">
+              <div class="whats">
+                <img class="whatsapp" src="whatsapp.png" />
+                <div class="text-wrapper-13">+62 812 8432 8512</div>
+              </div>
+            </div>
+            <div class="group-25">
+              <img class="instagram" src="instagram.png" />
+              <div class="text-wrapper-13">@wavkh_</div>
+            </div>
+          </div>
+          <img class="vector-2" src="VectorW.png" />
+          <div class="rectangle-20"></div>
+          <img class="logo" src="logo.png" />
+          <div class="text-wrapper-15">2024</div>
+        </div>
+        <div class="frame-10">
+          <a href="#home" id="logogw">
+            <img class="logo-2" src="Logo.png" id="portfolio-gw1"/>
+            <img class="logo-2" src="Logoo.png" id="portfolio-gw2"/>
+          </a>
+          <div class="navbar">
+            <div class="ABOUT"><a href="#about-us" class="text-wrapper-16 navlink" id="navlink-about">ABOUT</a></div>
+            <div class="WORK"><a href="#work-me" class="text-wrapper-16 navlink" id="navlink-work">WORK</a></div>
+            <div class="CONTACT"><a href="#contact-me" class="text-wrapper-16 navlink" id="navlink-contact">CONTACT</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
